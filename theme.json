@@ -2,7 +2,31 @@
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
   "settings": {
-    "appearanceTools": true
+    "appearanceTools": true,
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "name": "Inter",
+          "slug": "inter",
+          "fontFamily": "'Inter', 'Helvetica', 'Arial', sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "normal",
+              "fontWeight": "100 300 500 700 900",
+              "src": [ "file:./assets/fonts/InterVariable.ttf" ]
+            },
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "italic",
+              "fontWeight": "100 300 500 700 900",
+              "src": [ "file:./assets/fonts/InterVariable-Italic.ttf" ]
+            }
+          ]
+        }
+      ]
+    }
   },
   "styles": {
     "spacing": {
@@ -11,6 +35,42 @@
         "bottom": "5em",
         "left": "10%",
         "right": "10%"
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter",
+      "fontSize": "var:preset|font-size|medium",
+      "fontWeight": 300
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontWeight": 900,
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontWeight": 700,
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontWeight": 700,
+          "fontSize": "var:preset|font-size|large"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontWeight": 700
+        }
+      },
+      "link": {
+        "typography": {
+          "fontWeight": 500,
+          "textDecoration": "unset"
+        }
       }
     }
   },
