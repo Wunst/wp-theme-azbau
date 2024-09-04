@@ -26,9 +26,37 @@
           ]
         }
       ]
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#111111",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#0076de",
+          "name": "Accent",
+          "slug": "Accent"
+        },
+        {
+          "color": "#ff9900",
+          "name": "Highlight",
+          "slug": "highlight"
+        }
+      ]
     }
   },
   "styles": {
+    "color": {
+      "background": "var:preset|color|base",
+      "text": "var:preset|color|contrast"
+    },
     "spacing": {
       "padding": {
         "top": "5em",
@@ -70,6 +98,14 @@
         "typography": {
           "fontWeight": 500,
           "textDecoration": "unset"
+        },
+        "color": {
+          "text": "var:preset|color|accent"
+        },
+        ":hover": {
+          "typography": {
+            "textDecoration": "underline"
+          }
         }
       }
     }
