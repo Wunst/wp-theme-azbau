@@ -3,6 +3,10 @@
   "version": 2,
   "settings": {
     "appearanceTools": true,
+    "layout": {
+      "contentSize": "80%",
+      "wideSize": "90%"
+    },
     "typography": {
       "fluid": true,
       "fontFamilies": [
@@ -45,7 +49,7 @@
           "slug": "Accent"
         },
         {
-          "color": "#ff9900",
+          "color": "#ff8000",
           "name": "Highlight",
           "slug": "highlight"
         }
@@ -59,10 +63,7 @@
     },
     "spacing": {
       "padding": {
-        "top": "5em",
-        "bottom": "5em",
-        "left": "10%",
-        "right": "10%"
+        "top": "2em"
       }
     },
     "typography": {
@@ -105,6 +106,16 @@
         ":hover": {
           "typography": {
             "textDecoration": "underline"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/group": {
+        "spacing": {
+          "padding": {
+            "top": "1em",
+            "bottom": "1em"
           }
         }
       }
