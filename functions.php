@@ -7,6 +7,11 @@ function azbau_enqueue_styles() {
     "footer", 
     get_parent_theme_file_uri("assets/css/footer.css")
   );
+
+  wp_enqueue_style(
+    "button", 
+    get_parent_theme_file_uri("assets/css/button.css")
+  );
 }
 
 ?>

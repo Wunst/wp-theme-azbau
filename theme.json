@@ -108,6 +108,17 @@
             "textDecoration": "underline"
           }
         }
+      },
+      "button": {
+        "border": {
+          "radius": "10px"
+        },
+        "typography": {
+          "fontWeight": 700
+        },
+        "color": {
+          "background": "var:preset|color|accent"
+        }
       }
     },
     "blocks": {
