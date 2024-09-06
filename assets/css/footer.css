@@ -2,19 +2,20 @@
  * https://stackoverflow.com/a/18066619 */
 html {
   --azbau--footer-height: 300px;
+  --azbau--footer-margin: 5rem;
   position: relative;
   min-height: 100%;
 }
 
 body {
-  margin: 0 0 var(--azbau--footer-height);
+  margin: 0 0 calc(var(--azbau--footer-margin) + var(--azbau--footer-height));
   /* bottom = footer height */
-  padding: 25px;
 }
 
 footer {
   background-color: var(--wp--preset--color--contrast);
   position: absolute;
+  margin-top: var(--azbau-footer-margin);
   left: 0;
   bottom: 0;
   height: var(--azbau--footer-height);
