@@ -1,7 +1,24 @@
+/* Courtesy of Stack Overflow user Vinicius José Latorre.
+ * https://stackoverflow.com/a/18066619 */
+html {
+  --azbau--footer-height: 300px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 var(--azbau--footer-height);
+  /* bottom = footer height */
+  padding: 25px;
+}
+
 footer {
-  position: fixed;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-};
+  background-color: var(--wp--preset--color--contrast);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: var(--azbau--footer-height);
+  width: 100%;
+  overflow: hidden;
+}
 
