@@ -1,0 +1,11 @@
+.wp-block-site-logo img {
+  max-height: 10vh;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .wp-block-site-logo img {
+    max-height: 100%;
+  }
+}
+

@@ -17,6 +17,11 @@ function azbau_enqueue_styles() {
     "card", 
     get_parent_theme_file_uri("assets/css/card.css")
   );
+
+  wp_enqueue_style(
+    "logo", 
+    get_parent_theme_file_uri("assets/css/logo.css")
+  );
 }
 
 ?>
