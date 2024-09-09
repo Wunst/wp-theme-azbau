@@ -39,7 +39,7 @@
           "slug": "base"
         },
         {
-          "color": "#111111",
+          "color": "#333333",
           "name": "Contrast",
           "slug": "contrast"
         },
@@ -70,11 +70,6 @@
     "color": {
       "background": "var:preset|color|base",
       "text": "var:preset|color|contrast"
-    },
-    "spacing": {
-      "padding": {
-        "top": "2em"
-      }
     },
     "typography": {
       "fontFamily": "var:preset|font-family|inter",
