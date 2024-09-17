@@ -44,12 +44,12 @@
           "slug": "contrast"
         },
         {
-          "color": "#0076de",
+          "color": "#0057A3",
           "name": "Accent",
           "slug": "accent"
         },
         {
-          "color": "#0076de99",
+          "color": "#0057A3cc",
           "name": "Accent translucent",
           "slug": "accent-translucent"
         },
@@ -59,7 +59,7 @@
           "slug": "highlight"
         },
         {
-          "color": "#ff800099",
+          "color": "#ff8000cc",
           "name": "Highlight translucent",
           "slug": "highlight-translucent"
         }
