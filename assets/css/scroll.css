@@ -1,5 +1,5 @@
-body, body * {
-  overflow-x: hidden;
+.scroll-hide-overflow {
+  overflow: hidden;
 }
 
 .scroll-container {
@@ -17,15 +17,15 @@ body, body * {
 }
 
 .scroll-2 {
-  transform: translateX(2839px);
+  transform: translateX(2939px);
 }
 
 .scroll-1 img, .scroll-2 img {
-  height: 42.5rem;
+  height: 44rem;
 }
 
 @keyframes scroll {
   0% { left: 0px; }
-  100% { left: -2839px; } /* Dirty hack. */
+  100% { left: -2939px; } /* Dirty hack. */
 }
 
