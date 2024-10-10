@@ -62,7 +62,7 @@ function azbau_fancy_scroll_shortcode() {
 }
 
 function azbau_typing_shortcode() {
-  return '<p class="bau-typing"></p>';
+  return '<p aria-label="Bauen ist nicht wegzuautomatisieren. Bauen ist menschlich." class="bau-typing"></p>';
 }
 
 ?>
