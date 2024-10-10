@@ -3,6 +3,7 @@
 add_action("wp_enqueue_scripts", "azbau_enqueue_styles");
 
 add_shortcode("azbau_scroll", "azbau_fancy_scroll_shortcode");
+add_shortcode("azbau_typing", "azbau_typing_shortcode");
 
 function azbau_enqueue_styles() {
   #wp_enqueue_style(
@@ -34,6 +35,11 @@ function azbau_enqueue_styles() {
     "scroll",
     get_parent_theme_file_uri("assets/css/scroll.css")
   );
+
+  wp_enqueue_style(
+    "typing",
+    get_parent_theme_file_uri("assets/css/typing.css")
+  );
 }
 
 function azbau_fancy_scroll_shortcode() {
@@ -55,6 +61,9 @@ function azbau_fancy_scroll_shortcode() {
   ';
 }
 
+function azbau_typing_shortcode() {
+  return '<p class="bau-typing"></p>';
+}
 
 ?>
 

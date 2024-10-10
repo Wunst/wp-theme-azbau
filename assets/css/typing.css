@@ -1,0 +1,240 @@
+p.bau-typing {
+  max-width: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p.bau-typing::before {
+  content: "Bauen ist";
+}
+
+p.bau-typing::after {
+  content: "";
+  animation: bau-typing 40s infinite;
+}
+
+@keyframes bau-typing {
+  0.0% { content: ""; }
+  0.4545% { content: " "; }
+  0.9091% { content: " n"; }
+  1.3636% { content: " ni"; }
+  1.8182% { content: " nic"; }
+  2.2727% { content: " nich"; }
+  2.7273% { content: " nicht"; }
+  3.1818% { content: " nicht "; }
+  3.6364% { content: " nicht w"; }
+  4.0909% { content: " nicht we"; }
+  4.5455% { content: " nicht weg"; }
+  5.0% { content: " nicht wegz"; }
+  5.4545% { content: " nicht wegzu"; }
+  5.9091% { content: " nicht wegzua"; }
+  6.3636% { content: " nicht wegzuau"; }
+  6.8182% { content: " nicht wegzuaut"; }
+  7.2727% { content: " nicht wegzuauto"; }
+  7.7273% { content: " nicht wegzuautom"; }
+  8.1818% { content: " nicht wegzuautoma"; }
+  8.6364% { content: " nicht wegzuautomat"; }
+  9.0909% { content: " nicht wegzuautomati"; }
+  9.5455% { content: " nicht wegzuautomatis"; }
+  10.0% { content: " nicht wegzuautomatisi"; }
+  10.4545% { content: " nicht wegzuautomatisie"; }
+  10.9091% { content: " nicht wegzuautomatisier"; }
+  11.3636% { content: " nicht wegzuautomatisiere"; }
+  11.8182% { content: " nicht wegzuautomatisieren"; }
+  12.2727% { content: " nicht wegzuautomatisieren."; }
+  12.7273% { content: " nicht wegzuautomatisieren. "; }
+  13.1818% { content: " nicht wegzuautomatisieren. "; }
+  13.6364% { content: " nicht wegzuautomatisieren."; }
+  14.0909% { content: " nicht wegzuautomatisieren"; }
+  14.5455% { content: " nicht wegzuautomatisiere"; }
+  15.0% { content: " nicht wegzuautomatisier"; }
+  15.4545% { content: " nicht wegzuautomatisie"; }
+  15.9091% { content: " nicht wegzuautomatisi"; }
+  16.3636% { content: " nicht wegzuautomatis"; }
+  16.8182% { content: " nicht wegzuautomati"; }
+  17.2727% { content: " nicht wegzuautomat"; }
+  17.7273% { content: " nicht wegzuautoma"; }
+  18.1818% { content: " nicht wegzuautom"; }
+  18.6364% { content: " nicht wegzuauto"; }
+  19.0909% { content: " nicht wegzuaut"; }
+  19.5455% { content: " nicht wegzuau"; }
+  20.0% { content: " nicht wegzua"; }
+  20.4545% { content: " nicht wegzu"; }
+  20.9091% { content: " nicht wegz"; }
+  21.3636% { content: " nicht weg"; }
+  21.8182% { content: " nicht we"; }
+  22.2727% { content: " nicht w"; }
+  22.7273% { content: " nicht "; }
+  23.1818% { content: " nicht"; }
+  23.6364% { content: " nich"; }
+  24.0909% { content: " nic"; }
+  24.5455% { content: " ni"; }
+  25.0% { content: " n"; }
+  25.4545% { content: " "; }
+  25.9091% { content: ""; }
+  26.3636% { content: ""; }
+  26.8182% { content: " "; }
+  27.2727% { content: " S"; }
+  27.7273% { content: " Se"; }
+  28.1818% { content: " Seh"; }
+  28.6364% { content: " Sehe"; }
+  29.0909% { content: " Sehen"; }
+  29.5455% { content: " Sehen,"; }
+  30.0% { content: " Sehen, "; }
+  30.4545% { content: " Sehen, w"; }
+  30.9091% { content: " Sehen, wa"; }
+  31.3636% { content: " Sehen, was"; }
+  31.8182% { content: " Sehen, was "; }
+  32.2727% { content: " Sehen, was m"; }
+  32.7273% { content: " Sehen, was ma"; }
+  33.1818% { content: " Sehen, was man"; }
+  33.6364% { content: " Sehen, was man "; }
+  34.0909% { content: " Sehen, was man g"; }
+  34.5455% { content: " Sehen, was man ge"; }
+  35.0% { content: " Sehen, was man ges"; }
+  35.4545% { content: " Sehen, was man gesc"; }
+  35.9091% { content: " Sehen, was man gesch"; }
+  36.3636% { content: " Sehen, was man gescha"; }
+  36.8182% { content: " Sehen, was man geschaf"; }
+  37.2727% { content: " Sehen, was man geschaff"; }
+  37.7273% { content: " Sehen, was man geschafft"; }
+  38.1818% { content: " Sehen, was man geschafft "; }
+  38.6364% { content: " Sehen, was man geschafft h"; }
+  39.0909% { content: " Sehen, was man geschafft ha"; }
+  39.5455% { content: " Sehen, was man geschafft hat"; }
+  40.0% { content: " Sehen, was man geschafft hat."; }
+  40.4545% { content: " Sehen, was man geschafft hat. "; }
+  40.9091% { content: " Sehen, was man geschafft hat. "; }
+  41.3636% { content: " Sehen, was man geschafft hat."; }
+  41.8182% { content: " Sehen, was man geschafft hat"; }
+  42.2727% { content: " Sehen, was man geschafft ha"; }
+  42.7273% { content: " Sehen, was man geschafft h"; }
+  43.1818% { content: " Sehen, was man geschafft "; }
+  43.6364% { content: " Sehen, was man geschafft"; }
+  44.0909% { content: " Sehen, was man geschaff"; }
+  44.5455% { content: " Sehen, was man geschaf"; }
+  45.0% { content: " Sehen, was man gescha"; }
+  45.4545% { content: " Sehen, was man gesch"; }
+  45.9091% { content: " Sehen, was man gesc"; }
+  46.3636% { content: " Sehen, was man ges"; }
+  46.8182% { content: " Sehen, was man ge"; }
+  47.2727% { content: " Sehen, was man g"; }
+  47.7273% { content: " Sehen, was man "; }
+  48.1818% { content: " Sehen, was man"; }
+  48.6364% { content: " Sehen, was ma"; }
+  49.0909% { content: " Sehen, was m"; }
+  49.5455% { content: " Sehen, was "; }
+  50.0% { content: " Sehen, was"; }
+  50.4545% { content: " Sehen, wa"; }
+  50.9091% { content: " Sehen, w"; }
+  51.3636% { content: " Sehen, "; }
+  51.8182% { content: " Sehen,"; }
+  52.2727% { content: " Sehen"; }
+  52.7273% { content: " Sehe"; }
+  53.1818% { content: " Seh"; }
+  53.6364% { content: " Se"; }
+  54.0909% { content: " S"; }
+  54.5455% { content: " "; }
+  55.0% { content: ""; }
+  55.4545% { content: ""; }
+  55.9091% { content: " "; }
+  56.3636% { content: " m"; }
+  56.8182% { content: " me"; }
+  57.2727% { content: " men"; }
+  57.7273% { content: " mens"; }
+  58.1818% { content: " mensc"; }
+  58.6364% { content: " mensch"; }
+  59.0909% { content: " menschl"; }
+  59.5455% { content: " menschli"; }
+  60.0% { content: " menschlic"; }
+  60.4545% { content: " menschlich"; }
+  60.9091% { content: " menschlich."; }
+  61.3636% { content: " menschlich. "; }
+  61.8182% { content: " menschlich. "; }
+  62.2727% { content: " menschlich."; }
+  62.7273% { content: " menschlich"; }
+  63.1818% { content: " menschlic"; }
+  63.6364% { content: " menschli"; }
+  64.0909% { content: " menschl"; }
+  64.5455% { content: " mensch"; }
+  65.0% { content: " mensc"; }
+  65.4545% { content: " mens"; }
+  65.9091% { content: " men"; }
+  66.3636% { content: " me"; }
+  66.8182% { content: " m"; }
+  67.2727% { content: " "; }
+  67.7273% { content: ""; }
+  68.1818% { content: ""; }
+  68.6364% { content: " "; }
+  69.0909% { content: " v"; }
+  69.5455% { content: " vi"; }
+  70.0% { content: " vie"; }
+  70.4545% { content: " viel"; }
+  70.9091% { content: " vielf"; }
+  71.3636% { content: " vielfä"; }
+  71.8182% { content: " vielfäl"; }
+  72.2727% { content: " vielfält"; }
+  72.7273% { content: " vielfälti"; }
+  73.1818% { content: " vielfältig"; }
+  73.6364% { content: " vielfältig."; }
+  74.0909% { content: " vielfältig. "; }
+  74.5455% { content: " vielfältig. "; }
+  75.0% { content: " vielfältig."; }
+  75.4545% { content: " vielfältig"; }
+  75.9091% { content: " vielfälti"; }
+  76.3636% { content: " vielfält"; }
+  76.8182% { content: " vielfäl"; }
+  77.2727% { content: " vielfä"; }
+  77.7273% { content: " vielf"; }
+  78.1818% { content: " viel"; }
+  78.6364% { content: " vie"; }
+  79.0909% { content: " vi"; }
+  79.5455% { content: " v"; }
+  80.0% { content: " "; }
+  80.4545% { content: ""; }
+  80.9091% { content: ""; }
+  81.3636% { content: " "; }
+  81.8182% { content: " a"; }
+  82.2727% { content: " au"; }
+  82.7273% { content: " auc"; }
+  83.1818% { content: " auch"; }
+  83.6364% { content: " auch "; }
+  84.0909% { content: " auch w"; }
+  84.5455% { content: " auch wa"; }
+  85.0% { content: " auch was"; }
+  85.4545% { content: " auch was "; }
+  85.9091% { content: " auch was f"; }
+  86.3636% { content: " auch was fü"; }
+  86.8182% { content: " auch was für"; }
+  87.2727% { content: " auch was für "; }
+  87.7273% { content: " auch was für D"; }
+  88.1818% { content: " auch was für Di"; }
+  88.6364% { content: " auch was für Dic"; }
+  89.0909% { content: " auch was für Dich"; }
+  89.5455% { content: " auch was für Dich?"; }
+  90.0% { content: " auch was für Dich? "; }
+  90.4545% { content: " auch was für Dich? "; }
+  90.9091% { content: " auch was für Dich?"; }
+  91.3636% { content: " auch was für Dich"; }
+  91.8182% { content: " auch was für Dic"; }
+  92.2727% { content: " auch was für Di"; }
+  92.7273% { content: " auch was für D"; }
+  93.1818% { content: " auch was für "; }
+  93.6364% { content: " auch was für"; }
+  94.0909% { content: " auch was fü"; }
+  94.5455% { content: " auch was f"; }
+  95.0% { content: " auch was "; }
+  95.4545% { content: " auch was"; }
+  95.9091% { content: " auch wa"; }
+  96.3636% { content: " auch w"; }
+  96.8182% { content: " auch "; }
+  97.2727% { content: " auch"; }
+  97.7273% { content: " auc"; }
+  98.1818% { content: " au"; }
+  98.6364% { content: " a"; }
+  99.0909% { content: " "; }
+  99.5455% { content: ""; }
+}
+
+
+
