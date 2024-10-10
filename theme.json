@@ -49,7 +49,7 @@
         {
           "name": "Extra Large",
           "slug": "x-large",
-          "size": "56px"
+          "size": "52px"
         }
       ]
     },
@@ -136,6 +136,12 @@
         }
       },
       "button": {
+        "spacing": {
+          "padding": {
+            "left": "1rem",
+            "right": "1rem"
+          }
+        },
         "border": {
           "radius": "10px"
         },
