@@ -1,0 +1,5 @@
+.wp-block-gallery.has-nested-images figure.wp-block-image {
+  min-width: 300px;
+  flex-grow: 0;
+}
+

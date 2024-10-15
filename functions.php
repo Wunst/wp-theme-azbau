@@ -40,6 +40,11 @@ function azbau_enqueue_styles() {
     "typing",
     get_parent_theme_file_uri("assets/css/typing.css")
   );
+
+  wp_enqueue_style(
+    "gallery",
+    get_parent_theme_file_uri("assets/css/gallery.css")
+  );
 }
 
 function azbau_fancy_scroll_shortcode() {

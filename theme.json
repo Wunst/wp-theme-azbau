@@ -161,9 +161,6 @@
             "bottom": "1em"
           }
         }
-      },
-      "core/gallery": {
-        "css": ">figure { min-width: 300px; flex-grow: 0; }"
       }
     }
   },
