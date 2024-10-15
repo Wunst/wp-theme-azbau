@@ -1,3 +1,9 @@
+@media print {
+  .scroll-container {
+    display: none !important;
+  }
+}
+
 .scroll-hide-overflow {
   overflow: hidden;
 }

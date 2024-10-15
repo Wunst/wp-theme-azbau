@@ -6,10 +6,10 @@ add_shortcode("azbau_scroll", "azbau_fancy_scroll_shortcode");
 add_shortcode("azbau_typing", "azbau_typing_shortcode");
 
 function azbau_enqueue_styles() {
-  #wp_enqueue_style(
-  #  "footer", 
-  #  get_parent_theme_file_uri("assets/css/footer.css")
-  #);
+  wp_enqueue_style(
+    "header-footer", 
+    get_parent_theme_file_uri("assets/css/header-footer.css")
+  );
 
   wp_enqueue_style(
     "button", 
