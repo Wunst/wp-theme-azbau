@@ -163,7 +163,7 @@
         }
       },
       "core/gallery": {
-        "css": ">figure { min-width: 300px; }"
+        "css": ">figure { min-width: 300px; flex-grow: 0; }"
       }
     }
   },
