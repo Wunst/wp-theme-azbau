@@ -62,6 +62,12 @@ function azbau_fancy_scroll_shortcode() {
         <img src="' . get_theme_file_uri("assets/img/scroll3.jpeg") . '"> 
         <img src="' . get_theme_file_uri("assets/img/scroll4.jpeg") . '"> 
       </div>
+      <div class="scroll-3">
+        <img src="' . get_theme_file_uri("assets/img/scroll1.jpeg") . '"> 
+        <img src="' . get_theme_file_uri("assets/img/scroll2.jpeg") . '"> 
+        <img src="' . get_theme_file_uri("assets/img/scroll3.jpeg") . '"> 
+        <img src="' . get_theme_file_uri("assets/img/scroll4.jpeg") . '"> 
+      </div>
     </div>
   ';
 }

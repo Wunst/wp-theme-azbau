@@ -14,7 +14,7 @@
   justify-content: space-around;
 }
 
-.scroll-1, .scroll-2 {
+.scroll-1, .scroll-2, .scroll-3 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -23,15 +23,19 @@
 }
 
 .scroll-2 {
-  transform: translateX(2939px);
+  transform: translateX(183rem);
 }
 
-.scroll-1 img, .scroll-2 img {
+.scroll-3 {
+  transform: translateX(366rem);
+}
+
+.scroll-1 img, .scroll-2 img, .scroll-3 img {
   height: 44rem;
 }
 
 @keyframes scroll {
   0% { left: 0px; }
-  100% { left: -2939px; } /* Dirty hack. */
+  100% { left: -183rem; } /* Dirty hack. */
 }
 
