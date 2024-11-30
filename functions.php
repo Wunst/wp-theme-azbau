@@ -1,5 +1,7 @@
 <?php
 
+get_role('editor')->add_cap('edit_theme_options');
+
 add_action("wp_enqueue_scripts", "azbau_enqueue_styles");
 
 add_shortcode("azbau_scroll", "azbau_fancy_scroll_shortcode");
