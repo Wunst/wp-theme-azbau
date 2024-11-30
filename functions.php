@@ -47,33 +47,43 @@ function azbau_enqueue_styles() {
   );
 }
 
+function azbau_webp($img) {
+  return '
+    <picture>
+      <source type="image/avif" srcset="' . $img . '.avif">
+      <source type="image/webp" srcset="' . $img . '.webp">
+      <img src="' . $img . '" alt="">
+    </picture>
+  ';
+}
+
 function azbau_fancy_scroll_shortcode() {
   return '
-    <div class="scroll-container">
-      <div class="scroll-1">
-        <img src="' . get_theme_file_uri("assets/img/scroll1.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll2.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll3.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll4.jpeg") . '"> 
-      </div>
-      <div class="scroll-2">
-        <img src="' . get_theme_file_uri("assets/img/scroll1.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll2.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll3.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll4.jpeg") . '"> 
-      </div>
-      <div class="scroll-3">
-        <img src="' . get_theme_file_uri("assets/img/scroll1.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll2.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll3.jpeg") . '"> 
-        <img src="' . get_theme_file_uri("assets/img/scroll4.jpeg") . '"> 
-      </div>
+    <div aria-hidden="true" class="scroll-container">
+      <div class="scroll-1">'
+      . azbau_webp(get_theme_file_uri("assets/img/scroll1.jpeg")) 
+      . azbau_webp(get_theme_file_uri("assets/img/scroll2.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll3.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll4.jpeg")) 
+    . '</div>
+      <div class="scroll-2">'
+      . azbau_webp(get_theme_file_uri("assets/img/scroll1.jpeg")) 
+      . azbau_webp(get_theme_file_uri("assets/img/scroll2.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll3.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll4.jpeg")) 
+    . '</div>
+      <div class="scroll-3">'
+      . azbau_webp(get_theme_file_uri("assets/img/scroll1.jpeg")) 
+      . azbau_webp(get_theme_file_uri("assets/img/scroll2.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll3.jpeg"))
+      . azbau_webp(get_theme_file_uri("assets/img/scroll4.jpeg")) 
+    . '</div>
     </div>
   ';
 }
 
 function azbau_typing_shortcode() {
-  return '<p aria-label="Bauen ist nicht wegzuautomatisieren. Bauen ist menschlich." class="bau-typing"></p>';
+  return '<p class="bau-typing"></p>';
 }
 
 ?>
