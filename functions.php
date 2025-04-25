@@ -47,6 +47,11 @@ function azbau_enqueue_styles() {
     "gallery",
     get_parent_theme_file_uri("assets/css/gallery.css")
   );
+
+  wp_enqueue_style(
+    "contactform7",
+    get_parent_theme_file_uri("assets/css/contactform7.css")
+  );
 }
 
 function azbau_webp($img) {
